@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title id="underline">About Us</title>
+<link rel="stylesheet" type="text/css" href="aboutus.css">
+<script src="https://kit.fontawesome.com/deaec0de4b.js" crossorigin="anonymous"></script>
+</head>	
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div id="list" onmouseover="col()" onmouseout="coll()">
+                    HOME<a href="1.html"><span class="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list1" onmouseover="col1()" onmouseout="coll1()" >
+                    ABOUT US<a href="aboutus.html"><span class="link"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list2" onmouseover="col2()" onmouseout="coll2()">
+                    CONTACT US<a href="contactus.html"><span class="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list3" onmouseover="col3()" onmouseout="coll3()">
+                    LOGIN<a href="login.html"><span class="hey"></span></a></div>
+            </li>
+        </ul>
+    </nav>
+<div class="section">
+<div class="container">
+<div class="content-section">
+<div class="title">
+<h1>About Us</h1>
+</div>
+<div class="content">
+ <h3> Result Management Project  </h3>
+
+<p>This is our project based on Result Management System this is used to accessing the Result and importing the Result of students.
+    <br>The credits are as follows
+</p>
+<p id="ok" style="display: none">Sarthak - JavaScript,HTML and CSS<br>
+    Prem - HTML and CSS in About Us and Contact Us <br>Gomtesh - PHP</p>
+<div class="button">
+<button id="ok1" onclick="fun()">Read More</button>
+</div>
+</div>
+<div class="social">
+<a href="https://www.facebook.com/premsharma2111"><i class="fab fa-facebook"></i></a>
+ <a href="https://www.instagram.com/Sarthak.272"><i class="fab fa-instagram"></i></a>
+ <a href="https://twitter.com/Premsharma10203?t=0R4HTbMvAhbVJAA0Siv_tQ&s=09"><i class="fab fa-twitter"></i></a> 
+<a href="https://www.linkedin.com/home/?trk2=ga_campid%3D14650114788_asid%3D127961666300_crid%3D545833659295_kw%3Dlinkedin+login_d%3Dm_tid%3Dkwd-12704335873_n%3Dg_mt%3De_geo%3D9300952_slid%3D&mcid=6844056167778418689&gclid=Cj0KCQiAweaNBhDEARIsAJ5hwbf5PRTfDTWASY-11G-SSd5WWBXdijIqyk-ZdP2pA-CjLLWHFByUNKYaAgE3EALw_wcB&gclsrc=aw%2Eds&referrer=gclid%3DCj0KCQiAweaNBhDEARIsAJ5hwbf5PRTfDTWASY-11G-SSd5WWBXdijIqyk-ZdP2pA-CjLLWHFByUNKYaAgE3EALw_wcB&trk=IN-SEM_google-adwords_Jordan-brand-sign-up&gref=EkUKPQoJCIDB5o0GEMQBEiwAnmHBt_k9FN8NNYBJj7XUb5JJ3lZYFd2KMirKT5l0_akD4KMstYcUHJQ0phoCATcQAvD_BwEYgd7flAE&originalSubdomain=in"><i class="fab fa-linkedin-in"></i></a>
+            
+</div>
+</div>
+<div class="image-section">
+<img src="pimg.jpeg">
+</div>
+</div>
+</div>
+	
+</body>
+<script>
+    function fun()
+    {
+        document.getElementById("ok").style.display="block";
+    }
+    function col() {
+            document.getElementById("list").style.backgroundColor = "lightblue"
+        }
+        function col1() {
+            document.getElementById("list1").style.backgroundColor = "lightblue"
+        }
+        function col2() {
+            document.getElementById("list2").style.backgroundColor = "lightblue"
+        }
+        function col3() {
+            document.getElementById("list3").style.backgroundColor = "lightblue"
+        }
+        function coll() {
+            document.getElementById("list").style.backgroundColor = "darkseagreen"
+        }
+        function coll1() {
+            document.getElementById("list1").style.backgroundColor = "lightblue"
+        }
+        function coll2() {
+            document.getElementById("list2").style.backgroundColor = "darkseagreen"
+        }
+        function coll3() {
+            document.getElementById("list3").style.backgroundColor = "darkseagreen"
+        }       
+    </script>
+</script>
+</html>

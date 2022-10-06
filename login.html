@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia|Roboto|Roboto Condensed|Ubuntu|Signika Negative" />
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div id="list" onmouseover="col()" onmouseout="coll()">
+                    HOME<a href="1.html"><span id="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list1" onmouseover="col1()" onmouseout="coll1()">
+                    ABOUT US<a href="aboutus.html"><span id="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list2" onmouseover="col2()" onmouseout="coll2()">
+                    CONTACT US<a href="contactus.html"><span id="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list3" onmouseover="col3()" onmouseout="coll3()">
+                    LOGIN</div>
+            </li>
+        </ul>
+    </nav>
+    <form action="login.php" method="post">
+        <div id="id">
+            <h1 style="font-family:calibri">Login</h1><br><br>
+            <span><input type="text" name="lid" id="in" placeholder="Username" onfocus="input()"
+                    onfocusout="inn()"><br><br>
+                <input type="password" name="password" placeholder="Password" onfocus="input1()" id="nop"
+                    onfocusout="ink()"><br><br><br>
+                <input type="submit" id="h" onmouseover="hii()" onmouseout="hiii()" onclick="check()" value="login"></span>
+        </div>
+
+    </form>
+    <br>
+</body>
+<script>
+    function col() {
+        document.getElementById("list").style.backgroundColor = "lightblue"
+    }
+    function col1() {
+        document.getElementById("list1").style.backgroundColor = "lightblue"
+    }
+    function col2() {
+        document.getElementById("list2").style.backgroundColor = "lightblue"
+    }
+    function col3() {
+        document.getElementById("list3").style.backgroundColor = "lightblue"
+    }
+    function coll() {
+        document.getElementById("list").style.backgroundColor = "darkseagreen"
+    }
+    function coll1() {
+        document.getElementById("list1").style.backgroundColor = "darkseagreen"
+    }
+    function coll2() {
+        document.getElementById("list2").style.backgroundColor = "darkseagreen"
+    }
+    function coll3() {
+        document.getElementById("list3").style.backgroundColor = "lightblue"
+    }
+    function hii() {
+        document.getElementById("h").style.backgroundColor = "lightgreen";
+    }
+    function hiii() {
+        document.getElementById("h").style.backgroundColor = "#74daa0";
+    }
+    function input() {
+        document.getElementById("in").style.backgroundColor = "#95d4ffde";
+    }
+    function inn() {
+        document.getElementById("in").style.backgroundColor = "white";
+    }
+    function input1() {
+        document.getElementsById("nop").style.backgroundColor = "#95d4ffde";
+    }
+    function ink() {
+        document.getElementsById("nop").style.backgroundColor = "white";
+    }
+    function check(){
+        var x = document.getElementsById("in");
+        var y=document.getElementById("nop");
+if(x.value.length==0)
+{
+alert("Username can't be empty");
+}
+else if(y.value.length==0)
+{
+alert("Password can't be empty")
+}
+else if(x.value.length==0 && y.value.length==0){
+    alert("Both field must be required")
+}
+else{
+alert("Your username is :"+ x);
+}
+    }
+</script>
+
+</html>

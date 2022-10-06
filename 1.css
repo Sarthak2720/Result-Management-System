@@ -1,0 +1,225 @@
+img{
+    height: 95px;
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 10px;
+}
+#lo{
+    position: absolute;
+  
+    left: 11px;
+}
+ #ji{
+    position: absolute;
+    left: 5px;
+   
+   
+    
+}
+ #lol{
+    position: absolute;
+   
+    
+}
+ #jij{
+    position: relative;
+    
+     left: 15px
+    
+}
+#list
+{
+    background-color: darkseagreen;
+    width: 70px;
+    height: 60px;
+    display: inline-block;
+    position: absolute;
+    left: 0px
+        
+
+}
+#list1{ background-color: darkseagreen;
+
+    width: 88px;
+    height: 60px;
+    display: inline-block;
+position: absolute;
+ left: 70px
+}
+
+#list2{ background-color:darkseagreen;
+    width: 100px;
+    height: 60px;
+    display: inline-block;
+position: absolute;
+    left: 170px
+}
+
+#list3{ background-color: darkseagreen;
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+position: absolute;
+left: 270px}
+
+.yo {
+    word-spacing: 0%;
+}
+
+li {
+    line-height: 60px;
+    
+    display: inline;
+    
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    line-height: 20px;
+
+}
+
+body {
+    background:url(cool.png);
+}
+
+#container0 {
+    background-color: white;
+    height: 110px;
+    width: 1365px;
+    z-index: 1;
+    top: 5px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    text-align: center;
+
+    display: inline-block;
+}
+
+nav {
+    background-color: darkseagreen;
+    height: 60px;
+    width: auto;
+    box-shadow: 2px 5px 5px #aaaaaa;
+    margin: 0px;
+    padding: 0px;
+    position: sticky;
+    background-attachment: fixed;
+
+
+}
+
+#container {
+    background-color: lightcoral;
+    height: 110px;
+    width: 190px;
+    margin-top: 100px;
+    margin-left: 150px;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px #aaaaaa;
+
+}
+
+#container1 {
+    background-color: cadetblue;
+    height: 110px;
+    width: 190px;
+    position: relative;
+    left: 60px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px #aaaaaa;
+
+}
+
+#container2 {
+    background-color: dodgerblue;
+    height: 110px;
+    width: 190px;
+    position: relative;
+    left: 120;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px #aaaaaa;
+
+}
+
+#container3 {
+    background-color:  coral;
+    height: 110px;
+    width: 190px;
+    position: relative;
+    left: 180px;
+  
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 2px 5px 5px #aaaaaa;
+
+}
+
+#container,
+#container1,
+#container2,
+#container3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#ok
+{
+    font-size: 35px;
+    
+    position: relative;
+    right: 360px;
+    top: 10px;
+    font-family: "Signika Negative";
+        
+}
+#ok1{
+    font-size: 25px;
+    
+    position: relative;
+    right: 559px;
+    bottom: 50px;
+    font-family: Calibri light;
+}
+#id,#id1,#id2
+{
+    font-size: 30px;
+        position:relative;
+    top: 35px;;
+
+}
+.link{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 1;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#list
+{
+    background-color: lightblue;
+}
+#container,
+#container1,
+#container2{
+
+    left: 250px;
+    margin: 50px;
+    top: 50px;
+}

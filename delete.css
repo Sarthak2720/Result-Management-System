@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+  top: 70px;
+  background-color:lightgray
+}
+h1{
+   text-align:center;
+   position:relative;
+   top:-0;
+
+}
+.cl{
+  position:relative;
+  font-size:15;
+  bottom:20;
+  left:270
+}
+#h1,#h2{
+  font-size:20;
+  position:relative;
+  bottom:-20;
+  left:100;
+  line-height:3
+}
+span{
+  position:relative;
+  bottom:-20;
+  left:60;
+}
+#id{
+  text-align:center;
+  position:relative;
+  left:30;
+  bottom:-40
+
+}
+#iid{
+  position:relative;
+  top:10;
+}
+#idd{
+  position:relative;
+  left:218;
+  top:70;
+}
+div,#lo{
+  border:solid;
+  border-style:groove;
+  height:250;
+  position:relative;
+  bottom:90;
+  margin:50;
+  width:550;
+  left:350;
+  padding:20
+}
+#lo{
+  height:130
+}

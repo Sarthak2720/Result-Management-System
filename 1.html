@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <title>Result Management System</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia|Roboto|Roboto Condensed|Ubuntu|Signika Negative" />
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div id="list" onmouseover="col()" onmouseout="coll()">
+                    <p id="lo">HOME</p>
+                </div>
+            </li>
+
+            <li>
+                <div id="list1" onmouseover="col1()" onmouseout="coll1()">
+                    <p id="ji">ABOUT US<a href="aboutus.html"><span class="link"></span></a></p>
+                </div>
+            </li>
+
+            <li>
+                <div id="list2" onmouseover="col2()" onmouseout="coll2()">
+                    <p id="lol">CONTACT US</p><a href="contactus.html"><span class="link"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list3" onmouseover="col3()" onmouseout="coll3()">
+                    <p id="jij">LOGIN</p><a href="login.html"><span class="link"></span></a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="container0"><img src="download.jpg">
+        <p id="ok">Welcome to our Result Management</p><br>
+        <p id="ok1">Management is on Top</p>
+    </div>
+
+    <div id="container" onmouseover="fun()" onmouseout="func()" onclick="but()"><a href="checkresult.php"><span class="link"></span></a>
+        <p id="id">Student Section</p>
+    </div>
+    <div id="container1" onmouseover="fun1()" onmouseout="func1()"><a href="login.html"><span class="link"></span></a>
+        <p id="id1">Faculty Section</p>
+    </div>
+    <div id="container2" onmouseover="fun2()" onmouseout="func2()"><a href="subjectlist.html"><span class="link"></span></a>
+        <p id="id2">Subject Listed</p>
+    </div>
+  
+
+
+    <script>
+        function fun() {
+            document.getElementById("container").style.backgroundColor = "lightblue";
+        }
+        function fun1() {
+            document.getElementById("container1").style.backgroundColor = "lightblue";
+        }
+        function fun2() {
+            document.getElementById("container2").style.backgroundColor = "lightblue";
+        }
+        function fun3() {
+            document.getElementById("container3").style.backgroundColor = "lightblue";
+        }
+        function func() {
+            document.getElementById("container").style.backgroundColor = "lightcoral";
+        }
+        function func1() {
+            document.getElementById("container1").style.backgroundColor = "cadetblue";
+        }
+        function func2() {
+            document.getElementById("container2").style.backgroundColor = "dodgerblue";
+        }
+        function func3() {
+            document.getElementById("container3").style.backgroundColor = "coral";
+        }
+
+        function col() {
+            document.getElementById("list").style.backgroundColor = "lightblue"
+        }
+        function col1() {
+            document.getElementById("list1").style.backgroundColor = "lightblue"
+        }
+        function col2() {
+            document.getElementById("list2").style.backgroundColor = "lightblue"
+        }
+        function col3() {
+            document.getElementById("list3").style.backgroundColor = "lightblue"
+        }
+        function coll() {
+            document.getElementById("list").style.backgroundColor = "lightblue"
+        }
+        function coll1() {
+            document.getElementById("list1").style.backgroundColor = "darkseagreen"
+        }
+        function coll2() {
+            document.getElementById("list2").style.backgroundColor = "darkseagreen"
+        }
+        function coll3() {
+            document.getElementById("list3").style.backgroundColor = "darkseagreen"
+        }
+       
+    </script>
+
+</html>

@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Marks Submission</title>
+    <link rel="stylesheet" href="inputmarks.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <div id="list" onmouseover="col()" onmouseout="coll()">
+                    HOME<a href="1.html"><span class="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list1" onmouseover="col1()" onmouseout="coll1()">
+                    ABOUT US<a href="aboutus.html"><span class="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list2" onmouseover="col2()" onmouseout="coll2()">
+                    CONTACT US<a href="contactus.html"><span class="hey"></span></a>
+                </div>
+            </li>
+
+            <li>
+                <div id="list3" onmouseover="col3()" onmouseout="coll3()">
+                    LOGIN<a href="login.html"><span class="hey"></span></a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <h1>Symbiosis University Of Applied Sciences</h1>
+    <h2>UG Examination (1 SEMESTER) 2021</h2>
+    <img src="download.jpg">
+    <hr style="width: 860px;position:relative;left: 260px;top: 40px;">
+    <div id="idd">
+
+
+<form action="test.php"method="post">
+<p id="h1">Roll Number</p>
+<input type="text" class="cl" name="role_number" placeholder="Enter here">
+<p id="h2">Name</p>
+<input type="text" class="cl" name="name"placeholder="Enter here">
+<p id="h3">Maths Marks</p>
+<input type="number" class="cl" name="maths"placeholder="Enter here">
+<p id="h4">WebTech Marks</p>
+<input type="number" class="cl" name="webtech"placeholder="Enter here">
+<p id="h5">COA Marks </p>
+<input type="number" class="cl" name="coa"placeholder="Enter here">
+<p id="h6">PCC Marks </p>
+<input type="number" class="cl" name="pcc"placeholder="Enter here">
+<p id="h7">DBMS Marks </p>
+<input type="number" class="cl" name="dbms"placeholder="Enter here">
+<input type="submit" id="id" value="insert">
+</form>
+<p id="hello">to delete any data <a href="delete.html">click here </a> </p>
+</div>
+</body>
+<script>
+    
+    function col() {
+        document.getElementById("list").style.backgroundColor = "lightblue"
+    }
+    function col1() {
+        document.getElementById("list1").style.backgroundColor = "lightblue"
+    }
+    function col2() {
+        document.getElementById("list2").style.backgroundColor = "lightblue"
+    }
+    function col3() {
+        document.getElementById("list3").style.backgroundColor = "lightblue"
+    }
+    function coll() {
+        document.getElementById("list").style.backgroundColor = "darkseagreen"
+    }
+    function coll1() {
+        document.getElementById("list1").style.backgroundColor = "darkseagreen"
+    }
+    function coll2() {
+        document.getElementById("list2").style.backgroundColor = "darkseagreen"
+    }
+    function coll3() {
+        document.getElementById("list3").style.backgroundColor = "darkseagreen"
+    }
+</script>
+</html>
